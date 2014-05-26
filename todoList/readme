@@ -1,0 +1,14 @@
+Create HTML framework for app.
+
+Keeping the app modular
+Using basic MV* model
+
+When document loads calls main.js
+
+main.js sets up the input form
+
+Use Singleton pattern to namespace the JS for the app
+
+I have used stuff such as addEventListener which limits the cross-browser nature 
+Also DOMContentLoaded
+Generally prefer to do this and then build in alternatives for older browsers.
